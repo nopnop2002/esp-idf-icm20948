@@ -44,15 +44,15 @@ GND:i2c address is 0x68.
 We can find the sensor using [i2c-tools](https://github.com/espressif/esp-idf/tree/master/examples/peripherals/i2c/i2c_tools).   
 
 - Select SCL and SDA using menuconfig.   
-![Image](https://github.com/user-attachments/assets/5a5d46fd-ce1e-4199-acf4-c6b49abc2dd8)
+<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/7c182697-378f-43e6-967f-67a43f6aa483" />
 
 - Detect senser.   
 The i2c address for this sensor is 0x68 or 0x69.   
-![Image](https://github.com/user-attachments/assets/676e02f4-142f-4c97-93fa-569e7598f325)
+<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/76b8f07b-dc80-4e1c-adc0-2c63c56076dc" />
 
 - Read register.   
 Register #0x0F for this sensor is 0xEA.   
-![Image](https://github.com/user-attachments/assets/f7493299-9788-4aba-9a14-83714c4eeadd)
+<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/170f5cfd-7658-4a12-b6f4-305ce5788693" />
 
 # Get Compass offset from IMU
 Use [Calibrate](https://github.com/nopnop2002/esp-idf-icm20948/tree/main/Calibrate) to find the compass offset.   
